@@ -4,6 +4,11 @@ import RNPickerSelect from "react-native-picker-select";
 import './css/emergency.css'
 
 export default function Emergency() {
+  const placeholder = {
+    label: 'Selecione uma opção',
+    color: '#000000',
+  };
+  
   return(
     <View style={{ flex: 1 }}>
       <View className="emergency-div">
@@ -19,6 +24,7 @@ export default function Emergency() {
         <View className="emergency-div-select">
           <Text style={{fontSize: 18 }}>Selecione o tipo de emergência</Text>
           <RNPickerSelect
+              placeholder={placeholder}
               onValueChange={(value) => console.log(value)}
               items={[
                 { label: "Denúncia", value: "Denúncia" },

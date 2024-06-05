@@ -10,8 +10,8 @@
 }
 
 .input-style {
-  border: none;
-  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
   text-decoration-line: none;
   text-decoration: none;
 }
