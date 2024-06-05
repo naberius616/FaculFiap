@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-login {
+  width: 100%;
+  background-color: #0f50aa;
+}

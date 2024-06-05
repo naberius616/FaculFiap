@@ -1,0 +1,23 @@
+.container-login {
+  width: 100%;
+}
+
+.button-style {
+  width: 400px!important;
+  height: 40px;
+  padding: 50px;
+  background-color: yellow;
+}
+
+.input-style {
+  border: none;
+  border-radius: 5px;
+  text-decoration-line: none;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: rgb(235, 159, 5);
+  border-radius: 10px;
+  width: 300px;
+}
