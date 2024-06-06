@@ -67,7 +67,7 @@ const Home = () => {
       )}
     {filterValue === 'Turismo' && (
         <View>
-          <MapMarker markerTitle="Área de turismo" markerDescription="Área popular para turismo" markerLatitude={-23.5092161} markerLongitude={-46.6517039} markerHeight={60} markerWidth={60} circleWidth={200} circleHeight={200} markerUrl={"https://cdn.icon-icons.com/icons2/1310/PNG/512/city_86340.png"}/>
+          <MapMarker markerTitle="Área de turismo" markerDescription="Área popular para turismo" markerLatitude={-23.5092161} markerLongitude={-46.6517039} markerHeight={60} markerWidth={60} circleWidth={200} circleHeight={200} markerUrl={"https://czdn.icon-icons.com/icons2/1310/PNG/512/city_86340.png"}/>
         </View>
       )}
 

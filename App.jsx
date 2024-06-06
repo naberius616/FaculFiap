@@ -7,7 +7,6 @@ import Emergency from './pages/Emergency';
 import Notifications from './pages/Notifications';
 import './pages/css/global.css'
 
-//Código feito na maior correria possível, se você não é um professor, apague esta mensagem :)
 const Stack = createStackNavigator();
 
 export default function App() {
